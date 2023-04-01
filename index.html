@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAR UP</title>
+    <link rel="icon" href="1465572.ico">
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" class="screen" id="screen" placeholder="0">
+
+        <button class="simbolos" onclick="wipe()">AC</button>
+        <button class="simbolos" onclick="wipe()">C</button>
+        <button class="simbolos" onclick="show('/')">/</button>
+        <button class="simbolos" onclick="show('*')">*</button>
+
+        <button class="numeros"  onclick="show('7')">7</button>
+        <button class="numeros"  onclick="show('8')">8</button>
+        <button class="numeros"  onclick="show('9')">9</button>
+        <button class="simbolos" onclick="show('-')">-</button>
+
+        <button class="numeros"  onclick="show('4')">4</button>
+        <button class="numeros"  onclick="show('5')">5</button>
+        <button class="numeros"  onclick="show('6')">6</button>
+        <button class="simbolos" onclick="show('+')">+</button>
+
+        <button class="numeros"  onclick="show('1')">1</button>
+        <button class="numeros"  onclick="show('2')">2</button>
+        <button class="numeros"  onclick="show('3')">3</button>
+        <button class="simbolos" onclick="show('.')">.</button>
+
+        <button class="numeros"  onclick="show('(')">(</button>
+        <button class="numeros"  onclick="show('0')">0</button>
+        <button class="numeros"  onclick="show(')')">)</button>
+        <button class="simbolos" onclick="calc('=')">=</button>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
